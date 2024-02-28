@@ -1,4 +1,4 @@
-import data from "./helpers/data";
+import { data } from "./helpers/data";
 
 function App() {
   return <div className="App">App</div>;
