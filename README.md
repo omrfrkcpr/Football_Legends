@@ -32,7 +32,9 @@ Project aims to create a Football Legends App.
 └── readme.md
 ```
 
-## Expected Outcome
+## Outcome
+
+![footboll-legends](https://github.com/omrfrkcpr/Football_Legends/assets/77440899/b363b22a-e2e5-4293-b130-3ea79272d122)
 
 ## Objective
 
