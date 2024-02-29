@@ -23,6 +23,7 @@ Project aims to create a Football Legends App.
 │    ├── index.css
 │    └── index.js
 ├── .gitignore
+├── footboll-legends.gif
 ├── LICENSE
 ├── package.json
 ├── package-lock.json
