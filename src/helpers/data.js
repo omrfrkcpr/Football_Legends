@@ -392,7 +392,7 @@ export const data = [
   {
     id: 66,
     name: "Sergio Ramos",
-    img: "https://freshairarchive.org/sites/default/files/styles/square_800/public/2021-08/CharlesBarkley.jpg?itok=lkOGUQ2t",
+    img: "https://i.pinimg.com/736x/c2/48/c6/c248c60dc144a0eff4b3e2b83922919f.jpg",
     statistics: ["804 Matches", "115 Goals", "42 Assists", "29 Cups"],
   },
   {
@@ -403,7 +403,7 @@ export const data = [
   },
   {
     id: 68,
-    name: "Thomas Müller",
+    name: "Thomas Muller",
     img: "https://www.fr.de/assets/images/33/384/33384597-drueckt-dem-muenchener-spiel-immer-seltener-seinen-stempel-auf-thomas-mueller-2uJtsPltWAec.jpg",
     statistics: ["782 Matches", "279 Goals", "269 Assists", "33 Cups"],
   },
