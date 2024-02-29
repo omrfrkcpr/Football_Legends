@@ -11,7 +11,7 @@ const Header = () => {
         <a href="https://www.transfermarkt.com.tr/" target="blank">
           transfermarkt.com
         </a>{" "}
-        in alphabetical order.
+        in <u>alphabetical</u> order.
       </p>
     </div>
   );
