@@ -18,7 +18,7 @@ const PlayerCard = ({ id, name, img, statistics }) => {
 
   return (
     <div
-      className="col-xl-3 col-lg-4 col-md-6 text-center player-card border border-5 border-secondary"
+      className="col-xl-3 col-lg-4 col-md-6 text-center player-card border border-5"
       onClick={toggleImgVisibility}
     >
       <div className={`img-container ${imgVisible ? "" : "d-none"}`}>

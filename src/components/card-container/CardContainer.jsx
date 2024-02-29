@@ -14,7 +14,7 @@ const CardContainer = ({ data }) => {
   );
 
   return (
-    <div className="card-container rounded-2 p-4">
+    <div className="card-container rounded-2 p-4 pt-2">
       <div className="search text-center m-4">
         <input
           type="text"
