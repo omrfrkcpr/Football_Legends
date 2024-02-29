@@ -26,15 +26,19 @@ const CardContainer = ({ data }) => {
         />
       </div>
       <div className=" justify-content-center row">
-        {filteredData.map(({ id, name, img, statistics }) => (
-          <PlayerCard
-            key={id}
-            id={id}
-            name={name}
-            img={img}
-            statistics={statistics}
-          />
-        ))}
+        {filteredData.map(
+          ({ id, name, img, statistics, profile, official_career }) => (
+            <PlayerCard
+              key={id}
+              id={id}
+              name={name}
+              img={img}
+              statistics={statistics}
+              profile={profile}
+              official_career={official_career}
+            />
+          )
+        )}
       </div>
     </div>
   );

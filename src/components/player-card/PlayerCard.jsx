@@ -1,11 +1,19 @@
 import React, { useState } from "react";
 import "./PlayerCard.css";
+import { GiSoccerKick } from "react-icons/gi";
 import { TbSoccerField } from "react-icons/tb";
-import { GoGoal } from "react-icons/go";
+import { GiSoccerBall } from "react-icons/gi";
 import { MdAssistantPhoto } from "react-icons/md";
 import { FaTrophy } from "react-icons/fa6";
 
-const PlayerCard = ({ id, name, img, statistics }) => {
+const PlayerCard = ({
+  id,
+  name,
+  img,
+  statistics,
+  profile,
+  official_career,
+}) => {
   const [imgVisible, setImgVisible] = useState(true);
   const [zIndex, setZIndex] = useState(-1);
   const [borderBottom, setBorderBottom] = useState("");
@@ -28,6 +36,10 @@ const PlayerCard = ({ id, name, img, statistics }) => {
         <h2 className="fs-4" style={{ borderBottom: borderBottom }}>
           {name}
         </h2>
+        <p className={`${imgVisible ? "d-none mb-0 pb-0 " : ""}`}>
+          <GiSoccerKick style={{ color: "purple", fontSize: "40px" }} />(
+          {official_career})
+        </p>
       </div>
       <ul
         className={`m-auto d-flex flex-column align-items-start bg-white border border-2 p-3 justify-content-center`}
@@ -38,7 +50,7 @@ const PlayerCard = ({ id, name, img, statistics }) => {
           <span>{statistics[0]}</span>
         </li>
         <li>
-          <GoGoal style={{ color: "red", fontSize: "40px" }} />
+          <GiSoccerBall style={{ color: "red", fontSize: "40px" }} />
           <span>{statistics[1]}</span>
         </li>
         <li>
@@ -48,6 +60,13 @@ const PlayerCard = ({ id, name, img, statistics }) => {
         <li>
           <FaTrophy style={{ color: "black", fontSize: "40px" }} />
           <span>{statistics[3]}</span>
+        </li>
+        <li className="m-auto">
+          <button className="btn mt-4 bg-info">
+            <a href={profile} className="text-black" target="blank">
+              Profile
+            </a>
+          </button>
         </li>
       </ul>
     </div>
