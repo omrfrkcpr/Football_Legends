@@ -26,7 +26,7 @@ const PlayerCard = ({
 
   return (
     <div
-      className="col-xl-3 col-lg-4 col-md-6 text-center player-card border border-5"
+      className="col-xl-3 col-lg-4 col-md-6 col-xs-12 text-center player-card border border-5"
       onClick={toggleImgVisibility}
     >
       <div className={`img-container ${imgVisible ? "" : "d-none"}`}>
@@ -61,7 +61,7 @@ const PlayerCard = ({
           <FaTrophy style={{ color: "black", fontSize: "40px" }} />
           <span>{statistics[3]}</span>
         </li>
-        <li>
+        <li className="m-auto">
           <button className="btn mt-4 bg-info">
             <a href={profile} className="text-black" target="blank">
               Profile

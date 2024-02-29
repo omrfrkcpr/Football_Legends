@@ -41,8 +41,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin-left: 15%; */
-  margin: auto;
+  margin-left: 15%;
 }
 
 span {
@@ -57,4 +56,14 @@ span {
 
 .player-card button:hover {
   opacity: 0.8 !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .player-card li {
+    margin-left: 25% !important;
+  }
+
+  .player-card li:last-child {
+    margin: auto !important;
+  }
 }
