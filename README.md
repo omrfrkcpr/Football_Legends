@@ -9,7 +9,7 @@ Project aims to create a Football Legends App.
 ## Project Skeleton
 
 ```
-02-Football_Legends(folder)
+Football_Legends(folder)
 |
 ├── public
 │     └── index.html
