@@ -61,7 +61,7 @@ const PlayerCard = ({
           <FaTrophy style={{ color: "black", fontSize: "40px" }} />
           <span>{statistics[3]}</span>
         </li>
-        <li className="m-auto">
+        <li>
           <button className="btn mt-4 bg-info">
             <a href={profile} className="text-black" target="blank">
               Profile
