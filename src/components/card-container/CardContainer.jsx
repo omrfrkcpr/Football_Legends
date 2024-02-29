@@ -19,7 +19,7 @@ const CardContainer = ({ data }) => {
         <input
           type="text"
           placeholder="Search a legend"
-          className="px-2 w-50"
+          className="px-2 w-75"
           autoFocus
           value={searchTerm}
           onChange={handleInputChange}

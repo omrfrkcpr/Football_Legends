@@ -14,8 +14,8 @@ a {
 }
 
 .App {
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(1px);
   /* border: 2px solid red; */
-  background-color: rgba(250, 235, 215, 0.679) !important;
+  background-color: rgba(250, 235, 215, 0.653) !important;
   margin-bottom: 4rem;
 }

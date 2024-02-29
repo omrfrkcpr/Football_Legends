@@ -36,7 +36,7 @@ const PlayerCard = ({
         <h2 className="fs-4" style={{ borderBottom: borderBottom }}>
           {name}
         </h2>
-        <p className={`${imgVisible ? "d-none mb-0 pb-0 " : ""}`}>
+        <p className={` ${imgVisible ? "d-none mb-0 pb-0 " : ""}`}>
           <GiSoccerKick style={{ color: "purple", fontSize: "40px" }} />(
           {official_career})
         </p>
