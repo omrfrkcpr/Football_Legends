@@ -8,10 +8,12 @@ import { FaTrophy } from "react-icons/fa6";
 const PlayerCard = ({ id, name, img, statistics }) => {
   const [imgVisible, setImgVisible] = useState(true);
   const [zIndex, setZIndex] = useState(-1);
+  const [borderBottom, setBorderBottom] = useState("");
 
   const toggleImgVisibility = () => {
     setImgVisible(!imgVisible);
     setZIndex(imgVisible ? 5 : -1);
+    setBorderBottom(!imgVisible ? "" : "2px solid gray");
   };
 
   return (
@@ -23,7 +25,9 @@ const PlayerCard = ({ id, name, img, statistics }) => {
         <img src={img} alt={id} />
       </div>
       <div className="name-container">
-        <h2 className="fs-4">{name}</h2>
+        <h2 className="fs-4" style={{ borderBottom: borderBottom }}>
+          {name}
+        </h2>
       </div>
       <ul
         className={`m-auto d-flex flex-column align-items-start bg-white border border-2 p-3 justify-content-center`}
