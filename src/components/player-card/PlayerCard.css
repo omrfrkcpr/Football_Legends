@@ -1,0 +1,51 @@
+.player-card {
+  position: relative;
+  background-color: rgb(241, 239, 239);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.player-card .img-container {
+  /* border: 1px solid black; */
+  background-color: inherit;
+}
+
+.player-card .img-container:hover {
+  transform: scale(1.03);
+
+  transition-duration: 0.5s;
+}
+
+.player-card img {
+  width: 100%;
+  height: 400px;
+}
+
+ul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 50%;
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15%;
+}
+
+span {
+  padding-left: 0.7rem;
+  font-size: 1rem;
+}
+
+.name-container {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+}
