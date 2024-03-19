@@ -4,7 +4,11 @@ https://all-time-footboll-legends.netlify.app/
 
 ## Description
 
-Project aims to create a Football Legends App.
+A responsive application in which we render the 75 best football players of all time by pulling them from a local database file and filtering them to find the specific football player, and we can also view the data of the football player when we click on each football player card.
+
+## Outcome
+
+![footboll-legends](https://github.com/omrfrkcpr/Football_Legends/assets/77440899/b363b22a-e2e5-4293-b130-3ea79272d122)
 
 ## Project Skeleton
 
@@ -31,10 +35,6 @@ Football_Legends(folder)
 ├── package-lock.json
 └── readme.md
 ```
-
-## Outcome
-
-![footboll-legends](https://github.com/omrfrkcpr/Football_Legends/assets/77440899/b363b22a-e2e5-4293-b130-3ea79272d122)
 
 ## Objective
 
